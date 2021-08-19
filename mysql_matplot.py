@@ -29,7 +29,7 @@ for x in data:
     g.append(x[1])
 '''
 
-
+'''
 c = 0
 t = []
 for x in temp_data:
@@ -45,12 +45,12 @@ for x in growth_data:
   c += 1
   if c > 100:
       break
+'''
 
+plt.plot(temp_data, marker = 'o')
+plt.plot(growth_data, marker = 'x')
 
-#plt.plot(temp_data, marker = 'o')
-#plt.plot(growth_data, marker = 'x')
-
-plt.plot(t, marker = 'o')
-plt.plot(g, marker = 'x')
+#plt.plot(t, marker = 'o')
+#plt.plot(g, marker = 'x')
 
 plt.show()
